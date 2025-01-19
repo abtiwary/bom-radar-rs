@@ -6,8 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-actix-web = "4"
 anyhow = "1.0.71"
+axum = "0.8.1"
 image = "0.24.6"
 suppaftp = "^5.1.0"
+tokio = { version = "1.43.0", features = ["full"] }
 
